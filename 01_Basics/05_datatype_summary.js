@@ -20,9 +20,11 @@ const bigNumber = 28463124582354892354298n
 
 // console.log(bigNumber);
 
-// Reference (Non primitive)
+// Non primitive Datatypes
 
 // Array, Objects, Functions
+
+// Reference
 
 const heros = ["Thor", "Iron Man", "Hulk"] //Array
 
