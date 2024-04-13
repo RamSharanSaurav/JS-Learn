@@ -30,7 +30,7 @@ const num3 = {5:"e", 6:"f"}
 
 const combineObj = {...num1, ...num2, ...num3} // spread (mostly used)
 
-console.log(combineObj);
+// console.log(combineObj);
 
 const users =[
     {
@@ -49,10 +49,38 @@ const users =[
 
 
 users[1].id
-console.log(facebookUser);
+// console.log(facebookUser);
 
-console.log(Object.keys(facebookUser));
-console.log(Object.values(facebookUser));
-console.log(Object.entries(facebookUser));
+// console.log(Object.keys(facebookUser));
+// console.log(Object.values(facebookUser));
+// console.log(Object.entries(facebookUser));
 
-console.log(facebookUser.hasOwnProperty("isloggedIn"));
+// console.log(facebookUser.hasOwnProperty("isloggedIn"));
+
+// Destructuring in Objects
+
+const course = {
+    price: "100",
+    name: "js hindi",
+    instructor: "Hitesh"
+}
+
+// console.log(course.instructor);
+
+const {instructor: master} = course
+
+console.log(master);
+
+// API
+
+// {
+//     "name": "Saurav",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
